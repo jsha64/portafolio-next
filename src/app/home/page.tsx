@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Navbar } from '../../components/Navbar/navbar'
 
+
 export const Home = () => {
   return (
     <Navbar>
@@ -12,17 +13,22 @@ export const Home = () => {
       </div>
       <ul className='flex flex-row justify-center items-center space-x-36'>
         <li>
-          <Link href="/services">
+          <Link href="#">
+            Sobre Mi
+          </Link>
+        </li>
+        <li>
+          <Link href="#">
             Servicios
           </Link>
         </li>
         <li>
-          <Link href="/portfolio">
+          <Link href="#">
             Portafolio
           </Link>
         </li>
         <li>
-          <Link href="/contact">
+          <Link href="#">
             Contacto
           </Link>
         </li>
