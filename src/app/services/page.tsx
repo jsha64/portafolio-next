@@ -1,19 +1,21 @@
+import{ Plans }from "../../components/Plans/plans"
+
 export const ServicesComponents = () => {
     return (
-      <div>
-        <h1>Servicios</h1>
-        <ul>
-          <li>Desarrollo Frontend</li>
-          <li>Desarrollo Backend</li>
-          <li>DevOps</li>
-        </ul>
+      <div className="flex flex-col rounded-lg shadow-sm divide-y divide-zinc-600 bg-zinc-900 flex-1 basis-1/3 max-w-xs">
+        <Plans
+          title="FREELANCER"
+          paragraf="All the basics for starting a new business!"
+          span="$24"
+          spanTwo="/MONTH"
+        />
       </div>
     );
 };
 
 export default function Services() {
     return (
-      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <div className="mt-12 space-y-0 sm:mt-16 flex flex-wrap justify-center gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0">
         <ServicesComponents />
       </div>
     );
