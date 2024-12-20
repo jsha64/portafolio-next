@@ -2,12 +2,12 @@ import Link from 'next/link';
 import { Navbar } from '../../components/Navbar/navbar'
 
 
-export const Home = () => {
+const Home = () => {
   return (
     <Navbar>
     <div className='flex flex-row'>
       <div className='mr-36'>
-        <h1>Jorge Meriño - Desarrollador Fullstack</h1>
+        <h1>GEORDEV</h1>
         <p>Bienvenido a mi portafolio.</p>
         <p>Explora mis servicios y proyectos.</p>
       </div>
@@ -37,5 +37,7 @@ export const Home = () => {
     </Navbar>
   );
 };
+
+export default Home;
 
 

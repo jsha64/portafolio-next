@@ -1,4 +1,4 @@
-import { Home } from "./home/page"
+import Home from "./home/page"
 import Services from "./services/page"
  
 export default function Page() {
